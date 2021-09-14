@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+
+.header__title {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.header__link {
+  transition: all 100ms ease-in-out;
+  font-weight: bold;
+}
+
+.header__link:hover {
+  opacity: 0.75;
+}
+
+.profile {
+  margin: 2em 0 3em;
+}
+
+/* Posts */
+.post {
+  background-color: white;
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 2em;
+}
+
+.posts__title__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.posts__username {
+  margin-right: 0.5em;
+  font-weight: bolder;
+}
+
+.posts__engagements {
+  display: flex;
+  align-items: center;
+}
+
+.posts__engagements > small {
+  cursor: pointer;
+}
+
+.posts__engagements > small:not(:last-child) {
+  margin-right: 1em;
+}

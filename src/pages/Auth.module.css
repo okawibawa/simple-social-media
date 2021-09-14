@@ -1,0 +1,52 @@
+.util {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.form__container {
+  background-color: white;
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.forms {
+  margin-bottom: 1em;
+}
+
+.form__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.label {
+  margin-bottom: 0.25em;
+}
+
+.input {
+  padding: 0.8em 1.25em;
+  border-radius: 0.5em;
+  border: 1px solid #333;
+}
+
+.button {
+  width: 100%;
+  color: #eee;
+  background-color: #333;
+  padding: 0.8em 1.25em;
+  border-radius: 0.5em;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.cta {
+  text-decoration: underline;
+  cursor: pointer;
+}
